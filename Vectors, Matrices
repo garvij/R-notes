@@ -1,6 +1,8 @@
 #R basic commands
-#vectors
 x = 1
+
+#vectors
+#combine function
 x = c ( 1,2,3,4 )
 gender = c ( "male", "female" )
 x = seq ( from = 1, to = 100, by = 2)
