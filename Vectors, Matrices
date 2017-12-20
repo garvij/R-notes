@@ -1,0 +1,20 @@
+#R basic commands
+#vectors
+x = 1
+x = c ( 1,2,3,4 )
+gender = c ( "male", "female" )
+x = seq ( from = 1, to = 100, by = 2)
+rep (1, times = 5)
+rep ( "marin" , times = 10)
+rep ( seq ( from = 1, to = 100, by = 2) , times = 3 )
+
+#matrices
+matrix( c(1,2,3,4,5,6,7,8,9), nrow = 3, byrow = TRUE)
+matrix( c(1,2,3,4,5,6,7,8,9), nrow = 3, byrow = FALSE)
+mat = matrix( c(1,2,3,4,5,6,7,8,9), nrow = 3, byrow = FALSE)
+mat[1,2]
+mat[c(1,2),3]  
+# leaving the space blank means selecting all rows/columns
+mat[,2] # all rows, second column      
+mat[mat<5]
+
